@@ -103,12 +103,8 @@ Para criar esse breakpoint:
         - create Test Failure breakpoint
 
 
-
 <!--     
 
-
 https://www.devmedia.com.br/truques-de-debug-no-xcode-breakpoint-de-excecao/27180
-
-
 
 --!>
