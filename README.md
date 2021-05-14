@@ -40,8 +40,67 @@ _Pensando isso você está?_
 
 Pois é se você não sabe, deveria saber, todo programador swift deve pelo menos entender um código Objective-C, um dia você vai se deparar com um e ai vai lembrar de mim.....
 
+![](https://github.com/MoacirParticular/MoacirParticular/blob/main/Imagens/ExemploRuim_1.jpg)
+em Swift da erro se tentar criar este código, não vai nem compilar.
+
+
 _vamos voltar para o nosso tutorial de Debug._ ![](https://github.com/MoacirParticular/MoacirParticular/blob/main/Imagens/chewbacca.png)
 
+## - Dica básica – Breakpoints
+
+>_Essa é a dica básica, pois a maioria dos programadores já deve ter utilizado breakpoints._ 
+
+_Breakpoints são pontos de parada no código_, usados para saber se uma parte do código está sendo executada ou para examinar melhor o fluxo de execução de uma determinada parte do código.
+
+Para _inserir_ um breakpoint em uma linha de código, basta clicar na coluna da esquerda ao lado da linha desejada ou usar o atalho : _Command+\_ .
+
+Para _desabilitar_ o breakpoint, usar o atalho _Command+Y_ ou clicar com o botão esquerdo do mouse sobre o breakpoint.
+
+Para _remove-lo_, basta repetir o atalho _Command+\_ ou arrastar o breakpoint para fora da barra.
+
+
+![](https://github.com/MoacirParticular/MoacirParticular/blob/main/Imagens/ExemploBreakPointMark.png)
+
+
+## - Breakpoint de Exceção
+
+Um breakpoint de muita utilitade é o chamado breakpoint de exceção. 
+Esse breakpoint não é associado a uma linha de código específica, ele será disparado toda vez que houve uma exceção no app.
+
+Para criar esse breakpoint:
+- menu Debug
+    - Breakpoints
+        - create exception breakpoint
+        
+
+ Para evitar alguns disparos indesejados desse recurso, é interessante setar o tipo de exceção capturada para Objective-C apenas.
+
+![](https://github.com/MoacirParticular/MoacirParticular/blob/main/Imagens/Editando_Breakpoint.png)
+
+>_botão direito sobre o breakpoint, escolha edit e escolha com que o breakpoint seja disparado apenas em exceções da linguagem Objective-C._
+
+>_Se a opção de capturar apenas excessões do Objective-C não for selecionada, é possível que este breakpoint seja disparado em comportamentos normais de módulos criados em C/C++ e etc. Principalmente no uso de bibliotecas do Core Audio._
+
+Após criado, caso se o app for executado, a mensagem de erro será exibida exatamente na linha que a gerou e será mais fácil identificar os problemas.
+
+
+## - Breakpoins Swift Error
+Para criar esse breakpoint:
+- menu Debug
+    - Breakpoints
+        - create Swift Error breakpoint
+
+## - Breakpoins Symbolic
+Para criar esse breakpoint:
+- menu Debug
+    - Breakpoints
+        - create Symbolic breakpoint
+
+## - Breakpoins Test Failure
+Para criar esse breakpoint:
+- menu Debug
+    - Breakpoints
+        - create Test Failure breakpoint
 
 
 
