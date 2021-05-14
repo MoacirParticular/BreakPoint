@@ -79,7 +79,7 @@ Para criar esse breakpoint:
 
 >_botão direito sobre o breakpoint, escolha edit e escolha com que o breakpoint seja disparado apenas em exceções da linguagem Objective-C._
 
->_Se a opção de capturar apenas excessões do Objective-C não for selecionada, é possível que este breakpoint seja disparado em comportamentos normais de módulos criados em C/C++ e etc. Principalmente no uso de bibliotecas do Core Audio._
+>>_Se a opção de capturar apenas excessões do Objective-C não for selecionada, é possível que este breakpoint seja disparado em comportamentos normais de módulos criados em C/C++ e etc. Principalmente no uso de bibliotecas do Core Audio._
 
 Após criado, caso se o app for executado, a mensagem de erro será exibida exatamente na linha que a gerou e será mais fácil identificar os problemas.
 
