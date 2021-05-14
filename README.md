@@ -17,6 +17,8 @@ O método é descrito assim:
 
 Esse é o método do pato de borracha. Embora seja muito efetivo, algumas vezes são necessários truques extras para facilitar a vida do querido pato. Então, agora que você já conhece o método principal, vamos aos métodos que vez por outra quebram um galho até você encontrar o pato.
 
+
+### com o XCode
 Para exemplificar as técnicas discutidas abaixo, será utilizado um código muito simples. Crie um projeto de uma única view e na implementação desta view utilize o seguinte código:
 
 ```
