@@ -43,3 +43,8 @@ _vamos voltar para o nosso tutorial de Debug._ ![](https://github.com/MoacirPart
 
 
 
+<!--  
+
+https://www.devmedia.com.br/truques-de-debug-no-xcode-breakpoint-de-excecao/27180
+
+--!>
